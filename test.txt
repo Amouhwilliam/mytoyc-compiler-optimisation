@@ -1,0 +1,18 @@
+extern int printi(int val);
+
+int do_math(int a) {
+  int x = a * 5;
+  return x + 3;
+}
+
+void new_do_math(int a) {
+  int x = a * 5;
+  x = x + 3;
+  printi(x-1);
+  return;
+  }
+
+printi(do_math(7)-1);
+
+new_do_math(7);
+
